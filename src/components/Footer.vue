@@ -32,37 +32,6 @@
 
     <div class="flex flex-col items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
       <div class="flex items-center gap-6">
-        <a 
-          :href="pkg.repository.url"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center justify-center p-1.5 rounded-full transition-colors duration-200
-            text-gray-400 hover:text-gray-600 hover:bg-gray-200
-            dark:text-gray-500 dark:hover:text-gray-400 dark:hover:bg-gray-700
-            box-content"
-        >
-          <Icon icon="ri:github-line" class="w-5 h-5" />
-        </a>
-        <a 
-          :href="pkg.url"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center justify-center p-1.5 rounded-full transition-colors duration-200
-            text-gray-400 hover:text-gray-600 hover:bg-gray-200
-            dark:text-gray-500 dark:hover:text-gray-400 dark:hover:bg-gray-700
-            box-content"
-        >
-          <Icon icon="carbon:home" class="w-5 h-5" />
-        </a>
-        <a 
-          :href="`mailto:${pkg.email}`"
-          class="inline-flex items-center justify-center p-1.5 rounded-full transition-colors duration-200
-            text-gray-400 hover:text-gray-600 hover:bg-gray-200
-            dark:text-gray-500 dark:hover:text-gray-400 dark:hover:bg-gray-700
-            box-content"
-        >
-          <Icon icon="carbon:email" class="w-5 h-5" />
-        </a>
       </div>
       <div class="flex flex-col items-center gap-1">
         <div>
@@ -82,14 +51,12 @@
           >UptimeRobot</a> 接口 | 检测频率 5 分钟
         </div>
         <div>
-          Copyright © 2020 - {{ new Date().getFullYear() }} <a 
-            :href="pkg.repository.url"
-            target="_blank"
+          Copyright © 2025 - {{ new Date().getFullYear() }} <a 
+            href="https://www.mugzx.top" 
+            target="_blank" 
             rel="noopener noreferrer"
             class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
-          >
-            JLinmr
-          </a>
+          >Mugzx</a>
         </div>
       </div>
     </div>
